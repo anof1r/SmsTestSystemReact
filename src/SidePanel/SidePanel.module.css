@@ -1,0 +1,31 @@
+.panelOpen {
+    float: right;
+    height: 100vh;
+    width: 50vh;
+    position: relative;
+    background-color: #d0d5db;
+    transition: all 0.2s ease-out;
+    justify-content: center;
+    overflow: auto;
+}
+
+.panelClosed {
+    float: right;
+    height: 100vh;
+    width: 3.2vh;
+    position: relative;
+    background-color: #d0d5db;
+    transition: all 0.2s ease-out;
+}
+
+.btn {
+    float: left;
+    cursor: pointer;
+    color:#444;
+    border:1px solid #CCC;
+    background:#DDD;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    max-width: 100px;
+    padding: 5px;
+    text-align: center;
+}
