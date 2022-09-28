@@ -9,7 +9,7 @@ export default function ItemsList({
         {filters.map(filter => (
           <li>
             &quot;
-            {changeMode ? filter.field : filter.field }
+            {filter.field }
             &quot;
             :
             {' '}
@@ -19,7 +19,7 @@ export default function ItemsList({
             {' '}
             &quot;check_type&quot; :
             {' '}
-            {changeMode ? filter.check_type : filter.check_type }
+            {filter.check_type }
             {' '}
             <button
               id="btn"
